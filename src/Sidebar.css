@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100vh;
+    flex: 20%;
+    color: white;
+    height: 100vh;
+    min-width: 230px;
+    background-color: #040404;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:  center;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+
+.sidebar__logo {
+    height: 100px;
+    padding: 10px;
+
+}
+
+.sidebar > hr {
+    border: 1px solid #282828;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.sidebar__title {
+    padding: 5px;
+    font-size: 5px;
+    margin-left: 10px;
+}
+
+.MuiDrawer-paperAnchorDockedLeft {
+    border: none !important;
+}
+
+.MuiPaper-root {
+    background-color: #040404 !important;
+}
+
+.hider {
+    display: none !important;
+}
+
+@media (max-width: 599px) {
+    .hider {
+        display: block !important;
+        height: 4rem;
+    }
+}
